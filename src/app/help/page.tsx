@@ -102,13 +102,13 @@ const GetHelp = () => {
           </div>
           <div className="mb-6">
             <h4 className="font-medium text-sm lg:text-base">
-              <b> Why don't I see Apple Pay as an option?</b>
+              <b> Why do not I see Apple Pay as an option?</b>
             </h4>
             <p className="text-sm lg:text-base">
               To see Apple Pay as an option in the Nike App or on Nike.com,
-              you'll need to use a compatible Apple device running the latest
+              you will need to use a compatible Apple device running the latest
               OS, be signed in to your iCloud account and have a supported card
-              in your Wallet. Additionally, you'll need to use Safari to use
+              in your Wallet. Additionally, you will need to use Safari to use
               Apple Pay on Nike.com.
             </p>
             <div>
@@ -117,7 +117,7 @@ const GetHelp = () => {
         <div className="flex justify-start"><IoIosThumbsUp size={25}  />
         <IoIosThumbsDown size={25} /></div>
         <p className="text text-grey-100" >RELATED</p>
-        <p className="text-[10px] ml-5">WHAT ARE NIKE'S DELIVERY OPTIONS?</p>
+        <p className="text-[10px] ml-5">WHAT ARE NIKE S DELIVERY OPTIONS?</p>
         <p className="text-[10px] ml-5">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</p>
       </div>
           </div>

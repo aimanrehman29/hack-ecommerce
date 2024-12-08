@@ -42,7 +42,7 @@ const Frame4 = () => {
       <h2 className="hideen md:flex text-lg lg:text-2xl font-semibold mb-2">Gear Up</h2>
       <div className="flex justify-between mb-5 ">
       <div className="flex justify-end items-center gap-2 ml-[470px] ">
-        <h3>Shop Men's</h3>
+        <h3>Shop Mens</h3>
         <button className="w-8 h-8 flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-200">
           {"<"}
         </button>
@@ -51,7 +51,7 @@ const Frame4 = () => {
         </button>
       </div>
       <div className="flex justify-end items-center gap-2 mt-4">
-      <h3>Shop Women's</h3>
+      <h3>Shop Womens</h3>
         <button className="w-8 h-8 flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-200">
           {"<"}
         </button>

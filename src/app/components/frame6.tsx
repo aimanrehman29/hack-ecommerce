@@ -14,7 +14,7 @@ const Frame6 = () => {
           }}
         >
           <button className="bg-white rounded-full hover:bg-gray-500 px-5 py-1 mt-[180px] md:mt-[260px] lg:mt-[480px] ml-4">
-            Men's
+            Mens
           </button>
         </div>
         <div
@@ -24,7 +24,7 @@ const Frame6 = () => {
           }}
         >
           <button className="bg-white rounded-full hover:bg-gray-500 px-5 py-1 mt-[180px] md:mt-[260px] lg:mt-[480px] ml-4">
-            Women's
+            Womens
           </button>
         </div>
         <div
@@ -34,7 +34,7 @@ const Frame6 = () => {
           }}
         >
           <button className="bg-white rounded-full hover:bg-gray-500 px-5 py-1 mt-[180px] md:mt-[260px] lg:mt-[480px] ml-4">
-            Kids'
+            Kids
           </button>
         </div>
       </div>
@@ -61,11 +61,11 @@ const Frame6 = () => {
           <p className="text-gray-500">Shirts & Tops</p>
         </div>
         <div>
-          <h3 className="text-black text-[15px] mb-4 text-semibold">Kids'</h3>
+          <h3 className="text-black text-[15px] mb-4 text-semibold">Kids</h3>
           <p className="text-gray-500">Infant & Toddler Shoes</p>
-          <p className="text-gray-500">Kids' Shoes</p>
-          <p className="text-gray-500">Kids' Jordan Shoes</p>
-          <p className="text-gray-500">Kids' Basketball Shoes</p>
+          <p className="text-gray-500">Kids Shoes</p>
+          <p className="text-gray-500">Kids Jordan Shoes</p>
+          <p className="text-gray-500">Kids Basketball Shoes</p>
         </div>
       </div>
     </div>

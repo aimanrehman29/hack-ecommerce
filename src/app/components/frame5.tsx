@@ -7,7 +7,7 @@ const Frame5 = () => {
       <div className="mt-10">
         <div className="overflow-hidden">
           <h1 className="text-[25px] w-full flex justify-start text-bold ml-7 text-bold">
-          Don't Miss
+          Do not Miss
           </h1>
         </div>
         <div className="flex justify-center mt-5 p-5">

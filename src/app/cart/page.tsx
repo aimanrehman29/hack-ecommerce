@@ -46,7 +46,7 @@ const ShoppingCart = () => {
               <p>MRP: ₹3,895.00</p>
             </div>
             <p className="text-gray-500 text-[15px]">
-              Men's Short-Sleeve Running Top
+              Mens Short-Sleeve Running Top
             </p>
             <p className="text-gray-500 text-[15px]">
               Ashen Slate/Cobalt Bliss
@@ -89,7 +89,7 @@ const ShoppingCart = () => {
                 <p>MRP: ₹3,895.00</p>
               </div>
               <p className="text-gray-500 text-[15px]">
-                Men's Short-Sleeve Running Top
+                Mens Short-Sleeve Running Top
               </p>
               <p className="text-gray-500 text-[15px]">
                 Ashen Slate/Cobalt Bliss
