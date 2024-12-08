@@ -40,7 +40,7 @@ const Header = () => {
         </div>
 
         <div className="flex items-center space-x-4">
-        <div className=" lg:flex items-center bg-gray-100 rounded-full px-1 py-2 flex justify-between">
+        <div className=" lg:flex items-center bg-gray-100 rounded-full px-1 py-2 text-center flex  justify-between">
             <AiOutlineSearch className="text-black-500" size={20} />
             <input
               type="text"

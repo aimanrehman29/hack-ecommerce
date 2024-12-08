@@ -37,10 +37,10 @@ const womensProducts = [
 
 const Frame4 = () => {
   return (
-    <div className="w-full px-6 lg:px-9 mt-10 p-6">
+    <div className="w-full px-6 lg:px-9 mt-5 p-6">
       {/* Title Section */}
-      <h2 className="hideen md:flex text-lg lg:text-2xl font-semibold mb-2">Gear Up</h2>
-      <div className="flex justify-between mb-5 ">
+      <h2 className="hideen md:flex text-lg lg:text-2xl font-bold mb-2">Gear Up</h2>
+      <div className="hidden sm:flex flex justify-between mb-5 ">
       <div className="flex justify-end items-center gap-2 ml-[470px] ">
         <h3>Shop Mens</h3>
         <button className="w-8 h-8 flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-200">

@@ -27,9 +27,10 @@ const Frame3 = () => {
             Cause everyone should know the feeling of running in that perfect
             pair.
           </p>
-          <button className="bg-black rounded-full hover:bg-gray-500 px-5 py-1 mt-5 ml-[650px] text-white">
+          <div className="flex justify-center">
+        <button className="bg-black rounded-full hover:bg-gray-500 px-5 py-1 m-5 sm:mx-auto md: lg:m-5 sm:ml-[180px]  text-white px-4 flex just-center">
           Find Your Shoe
-            </button>
+            </button></div>
         </div>
       </div>
     </div>
