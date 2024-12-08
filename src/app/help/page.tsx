@@ -10,7 +10,6 @@ import { IoIosThumbsDown } from "react-icons/io";
 const GetHelp = () => {
   return (
     <div className="p-6 lg:p-10">
-     
       <div className="text-center mb-10">
         <h1 className="text-2xl lg:text-4xl font-semibold mb-4">GET HELP</h1>
         <div className=" w-full max-w-lg lg:flex items-center bg-gray-100 h-[56px] px-1 py-2 flex justify-between border border-black  px-4  rounded-md p-3 md:ml-3 lg:ml-[380px] ">
@@ -57,7 +56,6 @@ const GetHelp = () => {
             .
           </p>
 
-        
           <div className="flex gap-4 mb-10">
             <button className="bg-black text-white px-6 py-2 rounded-full">
               JOIN US
@@ -67,7 +65,6 @@ const GetHelp = () => {
             </button>
           </div>
 
-          
           <h3 className="text-lg lg:text-xl font-semibold mb-4">FAQs</h3>
           <div className="mb-6">
             <h4 className="font-medium text-sm lg:text-base ">
@@ -102,7 +99,7 @@ const GetHelp = () => {
           </div>
           <div className="mb-6">
             <h4 className="font-medium text-sm lg:text-base">
-              <b> Why don't I see Apple Pay as an option?</b>
+              <b> Why don&apos;t I see Apple Pay as an option?</b>
             </h4>
             <p className="text-sm lg:text-base">
               To see Apple Pay as an option in the Nike App or on Nike.com,
@@ -112,14 +109,15 @@ const GetHelp = () => {
               Apple Pay on Nike.com.
             </p>
             <div>
-        {" "}
-        <p className="font-medium mt-5">Was this answer helpful?</p>
-        <div className="flex justify-start"><IoIosThumbsUp size={25}  />
-        <IoIosThumbsDown size={25} /></div>
-        <p className="text text-grey-100" >RELATED</p>
-        <p className="text-[10px] ml-5">WHAT ARE NIKE'S DELIVERY OPTIONS?</p>
-        <p className="text-[10px] ml-5">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</p>
-      </div>
+              <p className="font-medium mt-5">Was this answer helpful?</p>
+              <div className="flex justify-start">
+                <IoIosThumbsUp size={25} />
+                <IoIosThumbsDown size={25} />
+              </div>
+              <p className="text text-grey-100">RELATED</p>
+              <p className="text-[10px] ml-5">WHAT ARE NIKE&apos;S DELIVERY OPTIONS?</p>
+              <p className="text-[10px] ml-5">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</p>
+            </div>
           </div>
         </div>
 
@@ -147,7 +145,7 @@ const GetHelp = () => {
             <li className="text-center ">
               <IoIosMail size={80} className=" ml-20 mt-8" />
               <p className="font-medium mt-5">
-                We’ll reply within five business days
+                We&apos;ll reply within five business days
               </p>
             </li>
             <li className="text-center ">
@@ -164,7 +162,6 @@ const GetHelp = () => {
           </ul>
         </div>
       </div>
-      
     </div>
   );
 };
