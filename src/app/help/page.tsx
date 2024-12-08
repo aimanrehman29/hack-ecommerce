@@ -3,7 +3,7 @@ import { FaMobileAlt } from "react-icons/fa";
 import { RiMessage2Fill } from "react-icons/ri";
 import { IoIosMail } from "react-icons/io";
 import Image from "next/image";
-import { AiOutlineSearch, AiOutlineHeart } from "react-icons/ai";
+import { AiOutlineSearch } from "react-icons/ai";
 import { IoIosThumbsUp } from "react-icons/io";
 import { IoIosThumbsDown } from "react-icons/io";
 

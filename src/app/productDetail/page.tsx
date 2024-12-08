@@ -20,7 +20,7 @@ const page = () => {
           <h1 className="sm:text-[30px] lg:text-[48px] text-bold ">Nike Air Force 1 <br />PLT.AF.ORM</h1>
           <p className="text-sm">
             Turn style on its head with this crafted take on the <br /> Air Jordan 1
-            Mid. Its "inside out"-inspired <br /> construction, including unique
+            Mid. Its inside out-inspired <br /> construction, including unique
             layering and <br /> exposed foam accents, ups the ante on this <br />timeless
             Jordan Brand silhouette. Details like the <br /> deco stitching on the
             Swoosh add coveted <br /> appeal, while the unexpected shading, rich <br />
