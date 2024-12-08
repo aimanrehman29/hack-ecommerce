@@ -9,7 +9,6 @@ const MainLayout = () => {
       <div className="hidden md:flex">
         <Sidebar />
       </div>
-
       <div>
         <ProductGrid />
       </div>

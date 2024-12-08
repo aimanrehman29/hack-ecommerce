@@ -5,11 +5,13 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 
+
+
 const ShoppingCart = () => {
   return (
     <div className="flex flex-col md:flex-row p-8 mt-10 gap-10">
       
-      <div className="flex-1 md:w-[500px] h-auto">
+      <div className="flex-1 md:w-500.33px] h-[auto]">
         {/* Free Delivery Banner */}
         <div className="h-[62.89px] bg-gray-200 p-3 mb-4">
           <h1 className="text-[13px]">Free Delivery</h1>
@@ -24,7 +26,7 @@ const ShoppingCart = () => {
         </div>
 
         {/* Bag Title */}
-        <h1 className="text-[25px] font-bold ml-7 mb-4">Bag</h1>
+        <h1 className="text-[25px] text-bold ml-7 mb-4">Bag</h1>
 
         {/* Item 1 */}
         <div className="flex justify-start gap-5 mb-4">
@@ -36,7 +38,7 @@ const ShoppingCart = () => {
               height={150}
             />
           </div>
-          <div className="w-full md:w-[537.33px] h-auto">
+          <div className="w-full md:w-[537.33px] h-[auto]">
             <div className="flex justify-between">
               <h1 className="text-black text-[15px] font-bold">
                 Nike Dri-FIT ADV TechKnit Ultra
@@ -79,7 +81,7 @@ const ShoppingCart = () => {
                 height={150}
               />
             </div>
-            <div className="w-full md:w-[537.33px] h-auto">
+            <div className="w-full md:w-[537.33px] h-[auto]">
               <div className="flex justify-between">
                 <h1 className="text-black text-[15px] font-bold">
                   Nike Dri-FIT ADV TechKnit Ultra
@@ -112,8 +114,8 @@ const ShoppingCart = () => {
       </div>
 
       {/* Summary Section */}
-      <div className="w-full md:w-[350.67px] h-auto ml-auto">
-        <h1 className="text-[25px] font-bold text-center">Summary</h1>
+      <div className="w-full md:w-[350.67px] h-[auto] ml-auto">
+        <h1 className="text-[25px] text-bold text-center">Summary</h1>
         <div className="flex justify-between mt-5">
           <h1 className="text-[15px]">Subtotal</h1>
           <h1 className="text-[15px]">₹20,890.00</h1>
@@ -129,6 +131,7 @@ const ShoppingCart = () => {
         </div>
         <Separator className="my-5" />
         <Link href={"/order"}>
+          {" "}
           <button className="bg-black text-white px-6 py-2 rounded-full w-full mt-5">
             Member Checkout
           </button>

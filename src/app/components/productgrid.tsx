@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { SlidersHorizontal } from "lucide-react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown,SlidersHorizontal } from "lucide-react"
+
 import Link from "next/link"; // Import Link for navigation
 
 const products = Array.from({ length: 96 }, (_, index) => ({

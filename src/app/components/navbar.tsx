@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import ProductGrid from "./productgrid"; // Keep the import if you need to use it
+import ProductGrid from "./productgrid";
 
 const Navbar = () => {
   return (
@@ -45,9 +45,6 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-
-      {/* Example of using ProductGrid component */}
-      <ProductGrid />  {/* Insert it here or wherever needed */}
     </div>
   );
 };
