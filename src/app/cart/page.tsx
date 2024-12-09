@@ -25,10 +25,10 @@ const ShoppingCart = () => {
           </div>
         </div>
 
-        {/* Bag Title */}
+        
         <h1 className="text-[25px] text-bold ml-7 mb-4">Bag</h1>
 
-        {/* Item 1 */}
+        
         <div className="flex justify-start gap-5 mb-4">
           <div>
             <Image
@@ -70,7 +70,7 @@ const ShoppingCart = () => {
 
         <Separator className="bg-gray-200 hidden md:block" />
 
-        {/* Item 2 */}
+        
         <div>
           <div className="flex justify-start gap-5 mb-4 mt-5">
             <div>

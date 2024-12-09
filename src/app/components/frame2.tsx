@@ -51,7 +51,7 @@ const Frame2 = () => {
         </div>
       </div>
 
-      {/* Product Grid */}
+    
       <div className="grid  md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
         {products.map((product) => (
           <div key={product.id} className="flex flex-col ">

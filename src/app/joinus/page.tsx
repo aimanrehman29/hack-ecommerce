@@ -6,12 +6,12 @@ const Register = () => {
   return (
     <div className="flex justify-center items-center h-[1000px] bg-white">
       <div className="w-full max-w-md p-6 bg-white rounded-md">
-        {/* Logo */}
+        
         <div className="flex justify-center mb-6">
           <SiNike size={60} />
         </div>
 
-        {/* Title */}
+        
         <h2 className="text-2xl font-semibold text-center mb-4">
           BECOME A NIKE MEMBER
         </h2>

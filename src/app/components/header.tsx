@@ -17,7 +17,7 @@ const Header = () => {
           <SiNike className="w-[48px] h-[48px] lg:w-[78.47px] lg:h-[78.47px]" />
         </div>
 
-        {/* Navigation Links (Hidden on small screens) */}
+        
         <div className="hidden lg:flex space-x-6 text-sm font-medium ml-[150px]">
           <a href="#" className="hover:underline text-[16px] font-bold">
             New & Featured
@@ -68,7 +68,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Sidebar (Mobile Navigation) */}
+      {/* Sidebar  */}
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex">
           {/* Sidebar Content */}

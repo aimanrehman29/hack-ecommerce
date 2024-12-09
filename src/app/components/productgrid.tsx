@@ -15,7 +15,7 @@ const products = Array.from({ length: 96 }, (_, index) => ({
 const ProductGrid = () => {
   return (
     <div className="w-full px-4 lg:px-8 mt-5">
-      {/* Product Grid */}
+     
       <div className="">
         {/* Filter and Sort */}
         <div className="flex justify-end mb-2">
@@ -38,7 +38,7 @@ const ProductGrid = () => {
                   height: "533px",
                 }}
               >
-                {/* Product Image */}
+                {/* Image */}
                 <div
                   className="relative bg-gray-200"
                   style={{
@@ -54,7 +54,7 @@ const ProductGrid = () => {
                     className="rounded-t-lg"
                   />
                 </div>
-                {/* Product Details */}
+                {/* Details */}
                 <div className="p-4" style={{ height: "185px" }}>
                   <p className="text-red-800">just in</p>
                   <h3 className="text-base lg:text-lg font-medium">

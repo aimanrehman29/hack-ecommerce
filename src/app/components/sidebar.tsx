@@ -4,7 +4,7 @@ import React from "react";
 const Sidebar = () => {
   return (
     <div className="w-[250px] bg-gray-100 p-4 h-screen overflow-y-auto">
-      {/* Category Section */}
+      
       <div className="mb-6">
         <h2 className="text-lg font-semibold mb-4">New (500)</h2>
         <ul className="space-y-2">
@@ -18,7 +18,7 @@ const Sidebar = () => {
         </ul>
       </div>
 
-      {/* Gender Section */}
+      
       <div className="mb-6">
         <h3 className="text-md font-medium mb-2">Gender</h3>
         <div className="space-y-2">
@@ -37,7 +37,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-      {/* Kids Section */}
+     
       <div className="mb-6">
         <h3 className="text-md font-medium mb-2">Kids</h3>
         <div className="space-y-2">

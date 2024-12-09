@@ -7,17 +7,17 @@ const Login = () => {
     <div className="flex justify-center items-center h-screen bg-white">
       <div className="w-full max-w-md p-6 bg-white rounded-md">
         
-        {/* Logo */}
+        
         <div className="flex justify-center mb-6">
           <SiNike size={60} />
         </div>
 
-        {/* Title */}
+        
         <h2 className="text-2xl font-semibold text-center mb-4">
           YOUR ACCOUNT FOR EVERYTHING NIKE
         </h2>
 
-        {/* Form */}
+       
         <form>
           <input
             type="email"
@@ -35,7 +35,7 @@ const Login = () => {
             required
           />
 
-          {/* Remember Me Checkbox */}
+          
           <div className="flex items-center justify-between mb-6">
             <label className="flex items-center gap-2">
               <input type="checkbox" name="keepSignedIn" />
@@ -46,7 +46,7 @@ const Login = () => {
             </a>
           </div>
 
-          {/* Privacy and Terms */}
+         
           <p className="text-xs text-gray-500 mb-6">
             By logging in, you agree to Nike’s{" "}
             <a href="#" className="underline">
@@ -59,7 +59,7 @@ const Login = () => {
             .
           </p>
 
-          {/* Submit Button */}
+        
           <button
             type="submit"
             className="w-full bg-black text-white py-3 rounded-md font-semibold hover:bg-gray-800 transition"
@@ -68,7 +68,7 @@ const Login = () => {
           </button>
         </form>
 
-        {/* Sign Up Link */}
+       
         <p className="text-center text-sm text-gray-600 mt-4">
           Not a Member?{" "}
           <a href="/joinus" className="underline">
