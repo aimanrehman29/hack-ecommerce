@@ -7,7 +7,7 @@ const products = [
     name: "Nike Air Max Pulse",
     price: "₹13,995",
     category: "Women's Shoes",
-    image: "/images/Image (4).png",
+    image: "/images/Image (5).png",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const products = [
     name: "Nike Air Max",
     price: "₹13,995",
     category: "Women's Shoes",
-    image: "/images/Rectangle.png",
+    image: "/images/Image (6).png",
   },
 ];
 
