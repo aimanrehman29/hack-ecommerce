@@ -48,11 +48,11 @@ const Header = () => {
               className="bg-transparent outline-none ml-2 text-sm placeholder-gray-500"
             />
           </div>
-
+           <Link href="/checkout">
           <AiOutlineHeart
             size={20}
             className="cursor-pointer text-gray-600 hover:text-black"
-          />
+          /></Link>
           <Link href="/cart">
           <IoBagOutline
             size={20}

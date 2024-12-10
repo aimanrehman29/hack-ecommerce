@@ -4,6 +4,7 @@ import { MdFacebook } from "react-icons/md";
 import { TiSocialYoutubeCircular } from "react-icons/ti";
 import { ImInstagram } from "react-icons/im";
 import { IoLocation } from "react-icons/io5";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -12,11 +13,11 @@ const Footer = () => {
     {/** Text Content */}
     <div className="flex flex-col lg:flex-row justify-between gap-5 lg:gap-0">
       <div className="text-white w-full lg:w-[245.25px] h-auto">
-        <div className="mt-5">Find A Store</div>
-        <div className="mt-3">Become A Member</div>
-        <div className="mt-3">Sign Up for Email</div>
-        <div className="mt-3">Send Us Feedback</div>
-        <div className="mt-3">Student Discounts</div>
+        <div className="mt-5"><Link href="/allproduct">Find A Store</Link></div>
+        <div className="mt-3"><Link href="/joinus">Become A Member</Link></div>
+        <div className="mt-3"><Link href="/login">Sign Up for Email</Link></div>
+        <div className="mt-3"><Link href="">Send Us Feedback</Link></div>
+        <div className="mt-3"><Link href="">Student Discounts</Link></div>
       </div>
       <div className="w-full lg:w-[300.25px] h-auto">
         <div className="text-white mt-3">Get Help</div>
