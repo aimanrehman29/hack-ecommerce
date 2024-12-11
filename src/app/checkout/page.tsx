@@ -7,12 +7,12 @@ import Image from "next/image";
 const Checkout = () => {
   return (
     <div className="flex flex-col md:flex-row p-5 md:p-20 gap-8 overflow-x-hidden">
-      {/* Left Side: Form */}
+      
       <div className="w-full md:w-[800px] mt-5">
         <div>
           <h1 className="font-bold mt-5 text-lg md:text-2xl">How would you like to get your order?</h1>
           <p className="text-sm md:text-base">
-            Customs regulation for India require a copy of the recipient's KYC.
+            Customs regulation for India require a copy of the recipients KYC.
             The address on the KYC needs to match the shipping address. Our
             courier will contact you via SMS/email to obtain a copy of your KYC.
             The KYC will be stored securely and used solely for the purpose of
@@ -26,7 +26,7 @@ const Checkout = () => {
           </button>
         </div>
 
-        {/* Address Section */}
+        
         <div>
           <h1 className="font-bold mt-5 text-lg md:text-2xl">Enter your name and address:</h1>
           <input
@@ -108,7 +108,7 @@ const Checkout = () => {
           </div>
         </div>
 
-        {/* Save Information */}
+       
         <label className="text-gray-400 gap-4 mt-5">
           <input type="checkbox" name="Save" value="fill it" />
           Save this address to my profile
@@ -119,8 +119,8 @@ const Checkout = () => {
           Make this my preferred address
         </label>
 
-        {/* Contact Information */}
-        <h1 className="font-bold mt-5 text-lg md:text-2xl">What's your contact information?</h1>
+       
+        <h1 className="font-bold mt-5 text-lg md:text-2xl">Whats your contact information?</h1>
         <input
           type="email"
           name="Email"
@@ -141,7 +141,7 @@ const Checkout = () => {
         </p>
 
         {/* PAN Information */}
-        <h1 className="font-bold text-lg mt-5">What's your PAN?</h1>
+        <h1 className="font-bold text-lg mt-5">Whats your PAN?</h1>
         <input
           type="number"
           name="PAN"
@@ -153,7 +153,7 @@ const Checkout = () => {
           Enter your PAN to enable payment with UPI, Net Banking or local card methods.
         </p>
 
-        {/* Save PAN Details */}
+        
         <label className="text-gray-400 gap-4 mt-5">
           <input type="checkbox" name="Save" value="fill it" />
           Save PAN details to Nike Profile
@@ -205,7 +205,7 @@ const Checkout = () => {
           <div className="flex justify-between mb-5">
             <Image src={"/images/Image (9).png"} alt="Product 1" width={208} height={208} className="p-3" />
             <div className="py-4">
-              <h1 className="text-sm">Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</h1>
+              <h1 className="text-sm">Nike Dri-FIT ADV TechKnit Ultra Mens Short-Sleeve Running Top</h1>
               <p className="text-xs text-gray-400">Qty 1</p>
               <p className="text-xs text-gray-400">Size L</p>
               <p className="text-xs text-gray-400">₹3,895.00</p>
@@ -214,7 +214,7 @@ const Checkout = () => {
           <div className="flex justify-between mb-5">
             <Image src={"/images/Image (6).png"} alt="Product 2" width={208} height={208} className="p-3" />
             <div className="py-4">
-              <h1 className="text-sm">Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</h1>
+              <h1 className="text-sm">Nike Dri-FIT ADV TechKnit Ultra Mens Short-Sleeve Running Top</h1>
               <p className="text-xs text-gray-400">Qty 1</p>
               <p className="text-xs text-gray-400">Size L</p>
               <p className="text-xs text-gray-400">₹3,895.00</p>
