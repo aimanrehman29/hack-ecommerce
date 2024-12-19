@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import { useState } from 'react';
 
 const GearUpSection = ({ menProducts, womenProducts }) => {
@@ -38,7 +39,7 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
         {/* Men's Section */}
         <div className="relative">
           <div className="flex justify-between items-center mb-2">
-            <h3 className="text-lg font-semibold">Shop Men's</h3>
+            <h3 className="text-lg font-semibold">Shop Mens</h3>
             {/* Navigation Buttons */}
             <div className="flex space-x-2">
               <button
@@ -88,7 +89,7 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
         {/* Women's Section */}
         <div className="relative">
           <div className="flex justify-between items-center mb-2">
-            <h3 className="text-lg font-semibold">Shop Women's</h3>
+            <h3 className="text-lg font-semibold">Shop Womens</h3>
             {/* Navigation Buttons */}
             <div className="flex space-x-2">
               <button
@@ -118,7 +119,7 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
                   className="w-1/2 flex-shrink-0 p-2 flex flex-col items-center"
                 >
                   <div className="w-full h-48 bg-gray-100 flex items-center justify-center">
-                    <img
+                    <Image
                       src={product.image}
                       alt={product.name}
                       className="object-contain h-full"

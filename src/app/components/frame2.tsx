@@ -4,36 +4,36 @@ export default function Home() {
   const products = [
     {
       name: 'Nike Air Max Pulse',
-      category: "Women's Shoes",
+      category: "Womens Shoes",
       price: '13,995',
       image: '/images/Image (5).png',
     },
     {
       name: 'Nike Air Max Pulse',
-      category: "Men's Shoes",
+      category: "Mens Shoes",
       price: '13,995',
       image: '/images/Image (5).png',
     },
     {
       name: 'Nike Air Max 97 SE',
-      category: "Men's Shoes",
+      category: "Mens Shoes",
       price: '16,395',
       image: '/images/Image (6).png',
     },
     {
       name: 'Nike Air Max 97 SE',
-      category: "Men's Shoes",
+      category: "Mens Shoes",
       price: '16,395',
       image: '/images/Image (6).png',
     }, {
       name: 'Nike Air Max 97 SE',
-      category: "Men's Shoes",
+      category: "Mens Shoes",
       price: '16,395',
       image: '/images/Rectangle (3).png',
     },
    {
     name: 'Nike Air Max 97 SE',
-    category: "Men's Shoes",
+    category: "Mens Shoes",
     price: '16,395',
     image: '/images/Rectangle (2).png',
   },

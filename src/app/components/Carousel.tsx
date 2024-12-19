@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import { useState } from 'react';
 
 const SlidingCarousel = ({ products }) => {
@@ -52,7 +53,7 @@ const SlidingCarousel = ({ products }) => {
             >
               {/* Product Image */}
               <div className="w-full h-48 bg-gray-100 flex items-center justify-center">
-                <img
+                <Image
                   src={product.image}
                   alt={product.name}
                   className="object-contain h-full"
