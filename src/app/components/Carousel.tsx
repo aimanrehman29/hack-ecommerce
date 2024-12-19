@@ -1,8 +1,23 @@
-"use client"
-import Image from 'next/image';
-import { useState } from 'react';
+"use client";
+import Image from "next/image";
+import { useState } from "react";
 
-const SlidingCarousel = ({ products }) => {
+// Define the type for your product
+type Product = {
+  id: string; // or number, depending on your data
+  name: string;
+  category: string;
+  price: string; // or number
+  image: string; // URL to the image
+};
+
+// Define the props for the component
+interface SlidingCarouselProps {
+  products: Product[];
+}
+
+// Apply the type to your component
+const SlidingCarousel: React.FC<SlidingCarouselProps> = ({ products }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNext = () => {
@@ -18,13 +33,13 @@ const SlidingCarousel = ({ products }) => {
   };
 
   return (
-    <section className="p-4 mt-20 ">
+    <section className="p-4 mt-20">
       {/* Title and Buttons Row */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-bold">Best of Air Max</h2>
         {/* Navigation Buttons */}
         <div className="flex space-x-2">
-            <h1 className='text-2xl'>shop</h1>
+          <h1 className="text-2xl">Shop</h1>
           <button
             onClick={goToPrevious}
             className="bg-gray-200 hover:bg-gray-300 p-2 rounded-full shadow-md"
@@ -44,11 +59,11 @@ const SlidingCarousel = ({ products }) => {
       <div className="relative overflow-hidden">
         <div
           className="flex transition-transform duration-500"
-          style={{ transform: `translateX(-${currentIndex * 100 / 3}%)` }}
+          style={{ transform: `translateX(-${(currentIndex * 100) / 3}%)` }}
         >
           {products.map((product, index) => (
             <div
-              key={index}
+              key={product.id}
               className="w-1/3 flex-shrink-0 p-2 flex flex-col items-center"
             >
               {/* Product Image */}
@@ -56,6 +71,8 @@ const SlidingCarousel = ({ products }) => {
                 <Image
                   src={product.image}
                   alt={product.name}
+                  width={300}
+                  height={200}
                   className="object-contain h-full"
                 />
               </div>

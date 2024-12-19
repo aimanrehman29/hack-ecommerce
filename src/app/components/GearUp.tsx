@@ -69,10 +69,12 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
                   className="w-1/2 flex-shrink-0 p-2 flex flex-col items-center"
                 >
                   <div className="w-full h-48 bg-gray-100 flex items-center justify-center">
-                    <img
+                    <Image
                       src={product.image}
                       alt={product.name}
                       className="object-contain h-full"
+                      width={300} // Set the desired width
+                      height={200}
                     />
                   </div>
                   <div className="text-center mt-2">
@@ -123,6 +125,8 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
                       src={product.image}
                       alt={product.name}
                       className="object-contain h-full"
+                      width={300} // Set the desired width
+                      height={200}
                     />
                   </div>
                   <div className="text-center mt-2">
