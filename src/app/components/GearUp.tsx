@@ -1,12 +1,27 @@
-"use client"
-import Image from 'next/image';
-import { useState } from 'react';
+"use client";
+import Image from "next/image";
+import { useState } from "react";
 
-const GearUpSection = ({ menProducts, womenProducts }) => {
+// Define the type for each product
+type Product = {
+  id: string; // or number
+  name: string;
+  category: string;
+  price: string;
+  image: string;
+};
+
+// Define the props for the GearUpSection component
+interface GearUpSectionProps {
+  menProducts: Product[];
+  womenProducts: Product[];
+}
+
+// Define the GearUpSection component
+const GearUpSection: React.FC<GearUpSectionProps> = ({ menProducts, womenProducts }) => {
   const [menIndex, setMenIndex] = useState(0);
   const [womenIndex, setWomenIndex] = useState(0);
 
-  // Logic for Men's Carousel
   const goToNextMen = () => {
     setMenIndex((prevIndex) =>
       prevIndex >= Math.ceil(menProducts.length / 2) - 1 ? 0 : prevIndex + 1
@@ -19,7 +34,6 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
     );
   };
 
-  // Logic for Women's Carousel
   const goToNextWomen = () => {
     setWomenIndex((prevIndex) =>
       prevIndex >= Math.ceil(womenProducts.length / 2) - 1 ? 0 : prevIndex + 1
@@ -39,8 +53,7 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
         {/* Men's Section */}
         <div className="relative">
           <div className="flex justify-between items-center mb-2">
-            <h3 className="text-lg font-semibold">Shop Mens</h3>
-            {/* Navigation Buttons */}
+            <h3 className="text-lg font-semibold">Shop Men's</h3>
             <div className="flex space-x-2">
               <button
                 onClick={goToPreviousMen}
@@ -63,18 +76,18 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
                 transform: `translateX(-${menIndex * 100}%)`,
               }}
             >
-              {menProducts.map((product, index) => (
+              {menProducts.map((product) => (
                 <div
-                  key={index}
+                  key={product.id}
                   className="w-1/2 flex-shrink-0 p-2 flex flex-col items-center"
                 >
                   <div className="w-full h-48 bg-gray-100 flex items-center justify-center">
                     <Image
                       src={product.image}
                       alt={product.name}
-                      className="object-contain h-full"
-                      width={300} // Set the desired width
-                      height={200}
+                      width={180}
+                      height={120}
+                      className="object-contain"
                     />
                   </div>
                   <div className="text-center mt-2">
@@ -91,8 +104,7 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
         {/* Women's Section */}
         <div className="relative">
           <div className="flex justify-between items-center mb-2">
-            <h3 className="text-lg font-semibold">Shop Womens</h3>
-            {/* Navigation Buttons */}
+            <h3 className="text-lg font-semibold">Shop Women's</h3>
             <div className="flex space-x-2">
               <button
                 onClick={goToPreviousWomen}
@@ -115,18 +127,18 @@ const GearUpSection = ({ menProducts, womenProducts }) => {
                 transform: `translateX(-${womenIndex * 100}%)`,
               }}
             >
-              {womenProducts.map((product, index) => (
+              {womenProducts.map((product) => (
                 <div
-                  key={index}
+                  key={product.id}
                   className="w-1/2 flex-shrink-0 p-2 flex flex-col items-center"
                 >
                   <div className="w-full h-48 bg-gray-100 flex items-center justify-center">
                     <Image
                       src={product.image}
                       alt={product.name}
-                      className="object-contain h-full"
-                      width={300} // Set the desired width
-                      height={200}
+                      width={180}
+                      height={120}
+                      className="object-contain"
                     />
                   </div>
                   <div className="text-center mt-2">
