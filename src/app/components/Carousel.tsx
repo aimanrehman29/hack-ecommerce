@@ -20,6 +20,7 @@ interface SlidingCarouselProps {
 const SlidingCarousel: React.FC<SlidingCarouselProps> = ({ products }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // Navigation Handlers
   const goToNext = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === products.length - 3 ? 0 : prevIndex + 1
@@ -37,7 +38,6 @@ const SlidingCarousel: React.FC<SlidingCarouselProps> = ({ products }) => {
       {/* Title and Buttons Row */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-bold">Best of Air Max</h2>
-        {/* Navigation Buttons */}
         <div className="flex space-x-2">
           <h1 className="text-2xl">Shop</h1>
           <button
@@ -61,7 +61,7 @@ const SlidingCarousel: React.FC<SlidingCarouselProps> = ({ products }) => {
           className="flex transition-transform duration-500"
           style={{ transform: `translateX(-${(currentIndex * 100) / 3}%)` }}
         >
-          {products.map((product, index) => (
+          {products.map((product) => (
             <div
               key={product.id}
               className="w-1/3 flex-shrink-0 p-2 flex flex-col items-center"
@@ -71,9 +71,9 @@ const SlidingCarousel: React.FC<SlidingCarouselProps> = ({ products }) => {
                 <Image
                   src={product.image}
                   alt={product.name}
-                  width={300}
-                  height={200}
-                  className="object-contain h-full"
+                  width={300} // Set width
+                  height={200} // Set height
+                  className="object-contain"
                 />
               </div>
               {/* Product Details */}
