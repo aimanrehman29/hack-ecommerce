@@ -34,14 +34,14 @@ const products = [
     name: "Nike Air Max 3",
     category: "Men's Shoes",
     price: "10999",
-    image: "/images/Image (7).png",
+    image: "/images/Rectangle (37).png",
   },
   {
     id: "6",
     name: "Nike Air Max 3",
     category: "Men's Shoes",
     price: "10999",
-    image: "/images/Image (8).png",
+    image: "/images/Rectangle (2).png",
   },
 ];
 

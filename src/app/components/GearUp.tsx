@@ -2,22 +2,22 @@
 import Image from "next/image";
 import { useState } from "react";
 
-// Define the type for each product
+
 type Product = {
-  id: string; // or number
+  id: string; 
   name: string;
   category: string;
   price: string;
   image: string;
 };
 
-// Define the props for the GearUpSection component
+
 interface GearUpSectionProps {
   menProducts: Product[];
   womenProducts: Product[];
 }
 
-// Define the GearUpSection component
+
 const GearUpSection: React.FC<GearUpSectionProps> = ({ menProducts, womenProducts }) => {
   const [menIndex, setMenIndex] = useState(0);
   const [womenIndex, setWomenIndex] = useState(0);
@@ -101,7 +101,7 @@ const GearUpSection: React.FC<GearUpSectionProps> = ({ menProducts, womenProduct
           </div>
         </div>
 
-        {/* Women's Section */}
+        
         <div className="relative">
           <div className="flex justify-between items-center mb-2">
             <h3 className="text-lg font-semibold">Shop Womens</h3>
