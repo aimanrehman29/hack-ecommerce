@@ -53,7 +53,7 @@ const GearUpSection: React.FC<GearUpSectionProps> = ({ menProducts, womenProduct
         {/* Men's Section */}
         <div className="relative">
           <div className="flex justify-between items-center mb-2">
-            <h3 className="text-lg font-semibold">Shop Men's</h3>
+            <h3 className="text-lg font-semibold">Shop Mens</h3>
             <div className="flex space-x-2">
               <button
                 onClick={goToPreviousMen}
@@ -104,7 +104,7 @@ const GearUpSection: React.FC<GearUpSectionProps> = ({ menProducts, womenProduct
         {/* Women's Section */}
         <div className="relative">
           <div className="flex justify-between items-center mb-2">
-            <h3 className="text-lg font-semibold">Shop Women's</h3>
+            <h3 className="text-lg font-semibold">Shop Womens</h3>
             <div className="flex space-x-2">
               <button
                 onClick={goToPreviousWomen}
