@@ -71,8 +71,8 @@ const SlidingCarousel: React.FC<SlidingCarouselProps> = ({ products }) => {
                 <Image
                   src={product.image}
                   alt={product.name}
-                  width={300} 
-                  height={200}
+                  width={180} 
+                  height={120}
                   className="object-contain"
                 />
               </div>
